@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1487843114102660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4421426082121044}
+  - component: {fileID: 65485481799003456}
+  - component: {fileID: 23101661477968824}
+  - component: {fileID: 33116379638064872}
+  - component: {fileID: 114907712370217564}
+  - component: {fileID: 114603072516595010}
+  m_Layer: 0
+  m_Name: HoloVideoPreview
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4421426082121044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487843114102660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4866625782796262}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65485481799003456
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487843114102660}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 500, y: 2000, z: 500}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &23101661477968824
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487843114102660}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c86f7350ddeeeae43935bafdbbc868ac, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33116379638064872
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487843114102660}
+  m_Mesh: {fileID: 0}
+--- !u!114 &114907712370217564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487843114102660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e4a3b5e99130374a8454069275d3988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previewFrame: 5
+  previewVideo: {fileID: 114603072516595010}
+--- !u!114 &114603072516595010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487843114102660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa14c564bc045f4193479ab8cb50e30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Url: 
+  ShouldAutoPlay: 0
+  _audioVolume: 1
+  audioSourceOffset: {x: 0, y: 0, z: 0}
+  flipHandedness: 0
+  _clockScale: 1
+  computeNormals: 1
+  Settings:
+    AudioDisabled: 0
+    UseKeyedMutex: 1
+    RenderViaClock: 1
+    OutputNormals: 1
+    StartDownloadOnOpen: 0
+    AutoLooping: 1
+    forceSoftwareClock: 0
+    PlaybackRate: 1
+    HRTFMinGain: -10
+    HRTFMaxGain: 12
+    HRTFGainDistance: 1
+    HRTFCutoffDistance: 3.4028235e+38
+    AudioDeviceId: 
+  DefaultMaxVertexCount: 15000
+  DefaultMaxIndexCount: 45000
+  fileInfo:
+    hasAudio: 0
+    duration100ns: 0
+    frameCount: 0
+    maxVertexCount: 0
+    maxIndexCount: 0
+    bitrateMbps: 0
+    fileSize: 0
+    minX: 0
+    minY: 0
+    minZ: 0
+    maxX: 0
+    maxY: 0
+    maxZ: 0
+    fileWidth: 0
+    fileHeight: 0
+    hasNormals: 0
+  PauseFrameID: 1
+--- !u!1 &1594019755658464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4866625782796262}
+  - component: {fileID: 65642029424688906}
+  - component: {fileID: 23548906440792828}
+  - component: {fileID: 33788802096982962}
+  - component: {fileID: 114914558443040476}
+  m_Layer: 0
+  m_Name: HoloVideoPreviewPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4866625782796262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594019755658464}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_Children:
+  - {fileID: 4421426082121044}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65642029424688906
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594019755658464}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 500, y: 2000, z: 500}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &23548906440792828
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594019755658464}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c86f7350ddeeeae43935bafdbbc868ac, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33788802096982962
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594019755658464}
+  m_Mesh: {fileID: 0}
+--- !u!114 &114914558443040476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594019755658464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa14c564bc045f4193479ab8cb50e30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Url: 
+  ShouldAutoPlay: 1
+  _audioVolume: 1
+  audioSourceOffset: {x: 0, y: 0, z: 0}
+  flipHandedness: 0
+  _clockScale: 1
+  computeNormals: 1
+  Settings:
+    AudioDisabled: 0
+    UseKeyedMutex: 0
+    RenderViaClock: 1
+    OutputNormals: 1
+    StartDownloadOnOpen: 0
+    AutoLooping: 1
+    forceSoftwareClock: 0
+    PlaybackRate: 1
+    HRTFMinGain: -10
+    HRTFMaxGain: 12
+    HRTFGainDistance: 1
+    HRTFCutoffDistance: 3.4028235e+38
+    AudioDeviceId: 
+  DefaultMaxVertexCount: 15000
+  DefaultMaxIndexCount: 45000
+  fileInfo:
+    hasAudio: 0
+    duration100ns: 0
+    frameCount: 0
+    maxVertexCount: 0
+    maxIndexCount: 0
+    bitrateMbps: 0
+    fileSize: 0
+    minX: 0
+    minY: 0
+    minZ: 0
+    maxX: 0
+    maxY: 0
+    maxZ: 0
+    fileWidth: 0
+    fileHeight: 0
+    hasNormals: 0
+  PauseFrameID: 1

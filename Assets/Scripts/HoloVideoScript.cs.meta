@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ae3281426b52cbc4f8c0b6f38cf8c9f2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - holoVidOG: {instanceID: 0}
+  - parentSpawn: {instanceID: 0}
+  - holo1: {instanceID: 0}
+  - holo2: {instanceID: 0}
+  - Intro1: {fileID: 102900000, guid: b0a07e0f616ee2e469c486b161d24262, type: 3}
+  - Intro2: {fileID: 102900000, guid: 2264667ffeb7f3a439994b658ff55772, type: 3}
+  - Positive1: {fileID: 102900000, guid: bb56819f98d0c35438c751f37a35b49f, type: 3}
+  - Positive2: {fileID: 102900000, guid: 6fd34e241616f0646949b19e177250a4, type: 3}
+  - Positive3: {fileID: 102900000, guid: b6191564eef130c41be1ae988cfc14d0, type: 3}
+  - Negative1: {fileID: 102900000, guid: b111d2d130393894abf78b3187402c8e, type: 3}
+  - Negative2: {fileID: 102900000, guid: d63fd91e257d2ca4b93624faad0c2dd7, type: 3}
+  - Negative3: {fileID: 102900000, guid: 188309cc2b357fb4890a430627d20ac7, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

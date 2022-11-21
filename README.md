@@ -1,1 +1,1 @@
-# MilitaryVR
+# Military-VR

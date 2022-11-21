@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: bec4005f0603b3640a46fd50f622dceb
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 7476865882115570531
+    second: Armature|ailerons
+  - first:
+      74: -1108857932590287533
+    second: Armature|doors
+  - first:
+      74: -4428753958709319040
+    second: Armature|flaps
+  - first:
+      74: -5933784078182154628
+    second: Armature|gears
+  - first:
+      74: 5096373947734968850
+    second: Armature|spead_brakes
+  - first:
+      74: -2416485309121386020
+    second: Armature|thrust_reverser
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-1
+    second: {fileID: 2100000, guid: e2286a09540a45945aec048e272f0b4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-10
+    second: {fileID: 2100000, guid: a51a184079ad12242904955da6128709, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-11
+    second: {fileID: 2100000, guid: 4f5286542f02798458f946d43f4f6477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-12
+    second: {fileID: 2100000, guid: 2d091b86794d6d14dac25e528dac5e6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-13
+    second: {fileID: 2100000, guid: e32d8ac0af0ae9f4a8e15c3247cf280f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-14
+    second: {fileID: 2100000, guid: 3fd7eb3dc756b4641a87fd85774588ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-15
+    second: {fileID: 2100000, guid: 9433f14c029301946aa3c82e62b0fa38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-16
+    second: {fileID: 2100000, guid: c6a6760543e899648b858b0274a53c24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-17
+    second: {fileID: 2100000, guid: 9da88bef0411b1e4e868c93e3eab9b3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-18
+    second: {fileID: 2100000, guid: 8a7adc331dfa5c348a5d8879370d3795, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-19
+    second: {fileID: 2100000, guid: 552efe7a70e402244b6a1778b04d0b68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-2
+    second: {fileID: 2100000, guid: e48afe9627c44ad498d70cad4e20d4cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-20
+    second: {fileID: 2100000, guid: 87d0060e690b57941ba2a4a32c4a995d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-21
+    second: {fileID: 2100000, guid: 3262caa834a213641aa1427768166482, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-22
+    second: {fileID: 2100000, guid: 986ca2875ff08ae4cbd3884903f73f53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-23
+    second: {fileID: 2100000, guid: 879c17bcebc31aa4384956a74ff707e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-24
+    second: {fileID: 2100000, guid: cb8a39544f6df6b448a8eba7ff92c0a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-25
+    second: {fileID: 2100000, guid: 0445033eec72d5a4e9cb845512a48cd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-26
+    second: {fileID: 2100000, guid: 2d4d731d2d93f9944b76d9cba645c04e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-27
+    second: {fileID: 2100000, guid: 6d031023880ac6f45b86891c022912b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-28
+    second: {fileID: 2100000, guid: 2f5e25431d940aa43925fa3189f2b555, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-3
+    second: {fileID: 2100000, guid: abda4939a3e8fc541b2351492307b024, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-4
+    second: {fileID: 2100000, guid: b8caa7e65f169474bb6b618870efc22a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-5
+    second: {fileID: 2100000, guid: 9ce39d423810f8940b2dab98bb42f2e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-6
+    second: {fileID: 2100000, guid: dc419a68c73856649b6814863401f2e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-7
+    second: {fileID: 2100000, guid: e68ab5cf20c7f2b4c848632868e07a20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-8
+    second: {fileID: 2100000, guid: 7e526e39b684b184b9d79dc6883dc68b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boeing777-9
+    second: {fileID: 2100000, guid: 3a949e9b069762847a936ff04111c168, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
